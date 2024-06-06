@@ -1062,3 +1062,30 @@ em{
   transform: rotate(-10deg); 
 }
 
+
+
+.gifs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.responsive-gif{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+  .responsive-gif {
+      width: 90%;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+  .responsive-gif {
+      width: 95%;
+  }
+}
